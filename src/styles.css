@@ -1,1 +1,38 @@
 /* You can add global styles to this file, and also import other style files */
+/* Estilo para la tabla */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilo para las celdas de la cabecera */
+  .table th {
+    background-color: #981919;
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  /* Estilo para las celdas de datos */
+  .table td {
+    border: 1px solid #197073;
+    padding: 8px;
+  }
+  
+  /* Estilo para filas impares (opcional) */
+  .table tr:nth-child(odd) {
+    background-color: #f9f9f9;
+  }
+  
+  /* Estilo para filas al pasar el ratón (opcional) */
+  .table tr:hover {
+    background-color: #1f1ab4;
+  }
+  
+  /* Estilo para la tabla cuando está vacía (opcional) */
+  .table-empty {
+    color: #999;
+    font-style: italic;
+  }
+  
